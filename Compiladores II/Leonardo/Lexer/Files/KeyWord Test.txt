@@ -1,0 +1,17 @@
+class ABC{
+	for(int i = 0x0; i<100; i = i+1){
+		while(true){
+			if(x >= 10){
+				break;
+			}
+			else{
+				continue;
+			}
+		}
+		bool y;
+		if(!y){}
+		else if(z == false){}
+	}
+
+	void func(){}
+}
