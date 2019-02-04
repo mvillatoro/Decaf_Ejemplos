@@ -171,7 +171,6 @@ TEST_CASE("Keyword Test"){
     CHECK(tok == Token::Ident);
     CHECK(lex.getText() == "i");
     tok = lex.getNextToken();
-    cout << "Antes de la cagada" << endl;
     CHECK(tok == Token::OpAssign);
     CHECK(lex.getText() == "=");
     tok = lex.getNextToken();
