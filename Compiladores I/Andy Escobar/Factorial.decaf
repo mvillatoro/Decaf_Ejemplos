@@ -1,0 +1,20 @@
+class Factorial{
+    
+    void main(){
+        int num;
+        System.out.println("Numero: ");
+        num = System.in.read();
+        System.out.print("Factorial: ");
+        System.out.println(factorial(num))
+        
+    }
+
+     //Funcion recursiva factorial
+    int factorial(int num){
+        if(num == 0){
+            return 1;
+        }
+        else
+            return num * factorial(num-1);
+    }
+}
