@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14  -rdynamic CMakeFiles/test_parser.dir/home/antonio21mp/Documents/compilers_2/proyect/lexer.cpp.o CMakeFiles/test_parser.dir/home/antonio21mp/Documents/compilers_2/proyect/parser.cpp.o CMakeFiles/test_parser.dir/test_parser.cpp.o  -o test_parser 

@@ -1,0 +1,7 @@
+System.out.print("Command \nLine...");
+System.out.println('A');
+System.out.println(0x121313);
+
+System.in.read();
+Random.nextInt(125);
+/**/

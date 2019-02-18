@@ -1,0 +1,4 @@
+/home/antonio21mp/Documents/compilers_2/proyect/test_parser/build/CMakeFiles/rebuild_cache.dir
+/home/antonio21mp/Documents/compilers_2/proyect/test_parser/build/CMakeFiles/edit_cache.dir
+/home/antonio21mp/Documents/compilers_2/proyect/test_parser/build/CMakeFiles/test_parser.dir
+/home/antonio21mp/Documents/compilers_2/proyect/test_parser/build/CMakeFiles/test.dir

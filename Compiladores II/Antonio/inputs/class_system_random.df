@@ -1,0 +1,12 @@
+class system_random_Class {
+    void main() {
+            int x, y, z;
+            x = a;
+            y = b;
+            z = gcd(x, y);
+            System.out.print(x);
+            System.out.println(z);
+            System.in.read();
+            Random.nextInt(55 + 66);
+    }
+}

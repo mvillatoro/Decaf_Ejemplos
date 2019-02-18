@@ -1,0 +1,17 @@
+class operationsClass {
+    void main() {
+            int x, y, z;
+            int a, b, c;
+            x = 10;
+            y = 25;
+            z = 15;
+
+            a = x + y / z;
+            b = x - y * z;
+            c = (x > y) - (y < z) + (x >= y) * (x <= z) / (y == x + z != x);
+
+            System.out.println(a);
+            System.out.println(b);
+            System.out.println(c);
+    }
+}

@@ -1,0 +1,4 @@
+/home/antonio21mp/Documents/compilers_2/proyect/test_lexer/build/CMakeFiles/edit_cache.dir
+/home/antonio21mp/Documents/compilers_2/proyect/test_lexer/build/CMakeFiles/rebuild_cache.dir
+/home/antonio21mp/Documents/compilers_2/proyect/test_lexer/build/CMakeFiles/test_lexer.dir
+/home/antonio21mp/Documents/compilers_2/proyect/test_lexer/build/CMakeFiles/test.dir

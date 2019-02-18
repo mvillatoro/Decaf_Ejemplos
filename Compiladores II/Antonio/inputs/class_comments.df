@@ -1,0 +1,13 @@
+class commentClass {
+    void main() {
+            int x,/* y,*/ z;
+            x = 15;
+            //y = b;
+            z = 10;
+            /* System.out.print(x);
+            System.out.println(z);
+            System.in.read();
+            Random.nextInt(55 + 66);
+            */
+    }
+}
