@@ -1,0 +1,25 @@
+class GCD {
+	int gcd(int x, int y){
+		if(x == 0)
+			return y;
+		while(y != 0){
+			if(x > y)
+				x = x - y;
+			else
+				y = y - x;
+		}
+		return x;
+	}
+	int main(){
+		int x, y;
+		System.out.print("Ingrese el primer numero: ");
+		x = System.in.read();
+		System.out.println();
+		System.out.print("Ingrese el segundo numero: ");
+		y = System.in.read();
+		System.out.println();
+		System.out.print("GCD es: ");
+		System.out.println(gcd(x,y));
+		return 0;
+	}
+}
