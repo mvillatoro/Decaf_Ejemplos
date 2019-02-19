@@ -1,0 +1,37 @@
+class Fibonacci {
+
+    void main() {
+        int n, t1, t2, nextTerm, i;
+        t1 = 0;
+        t2 = 1;
+        nextTerm = 0;
+
+        System.out.println("Welcome");
+        n = Random.nextInt(6);
+
+        System.out.print("Fibonacci Series: ");
+
+        for (i = 1; i <= n; i = i + 1)
+        {
+            // Prints the first two terms.
+            if(i == 1)
+            {
+                System.out.print(" ");
+                System.out.print(t1);
+                continue;
+            }
+            if(i == 2)
+            {
+                System.out.print(t2);
+                System.out.print(" ");
+                continue;
+            }
+            nextTerm = t1 + t2;
+            t1 = t2;
+            t2 = nextTerm;
+            
+            System.out.print(nextTerm);
+            System.out.print(" ");
+        }
+    }
+}

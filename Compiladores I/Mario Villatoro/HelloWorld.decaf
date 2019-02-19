@@ -1,0 +1,10 @@
+class HelloWorld{
+    int x, y, z;
+    bool a[5], b, c[4];
+    int m = 0;
+    bool w = false;
+    int x = 'a';
+    void main(){
+        System.out.print("Test\n");
+    }
+}

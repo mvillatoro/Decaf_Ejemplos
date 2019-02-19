@@ -1,0 +1,28 @@
+class ArithmeticOperations {
+    void main() {
+        int a, b, result;
+        a = 10;
+        b = 5;
+        result = suma(a, b);
+        System.out.println(result);
+        result = resta(a, b);
+        System.out.println(result);
+        result = mult(a, b);
+        System.out.println(result);
+        result = divi(a, b);
+        System.out.println(result);
+    }
+    // Funciones que calculan operaciones aritmeticas
+    int suma(int a, int b) {
+        return a+b;
+    }
+    int resta(int a, int b) {
+        return a-b;
+    }
+    int mult(int a, int b) {
+        return a*b;
+    }
+    int divi(int a, int b) {
+        return a/b;
+    }
+}

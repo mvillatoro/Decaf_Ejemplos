@@ -1,0 +1,5 @@
+x = "Hola Mundo\nAdios\tMundo\'\\\"\r";
+y = "\x";
+var_1_2_3 = """;
+_123 = 'ab';
+_x_2 = '\';

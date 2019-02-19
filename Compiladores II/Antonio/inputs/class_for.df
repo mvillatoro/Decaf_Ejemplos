@@ -1,0 +1,14 @@
+class for_class {
+    void main() {
+        int x, y;
+        for( x = 0; x < 11; x = x+1 ){
+            System.out.print("X: ");
+            System.out.println(x);
+        }
+
+        for( y = 10; y > 0; y = y-1 ){
+            System.out.print("Y: ");
+            System.out.println(y);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+class test {
+   int a = 1;
+   int b = 10;
+   void main() {
+       while(true){
+           a = a + 1;
+           if(a>23){
+               break;
+           }else{
+               continue;
+           }
+           System.out.print("Dont must print this!!!");
+       }
+   }
+};

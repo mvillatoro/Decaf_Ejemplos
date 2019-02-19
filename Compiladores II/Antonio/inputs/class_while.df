@@ -1,0 +1,11 @@
+class while_class {
+    void main() {
+        int x, y;
+        x = 0;
+        y = 10;
+        while(y > x){
+            x = x + 1;
+        }
+        System.out.print("Finish");
+    }
+}

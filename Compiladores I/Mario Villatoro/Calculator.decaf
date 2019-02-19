@@ -1,0 +1,72 @@
+/*
+
+By Mario Villatoro - 21021072
+
+*/
+
+class calculator{
+        bool endF = true;
+    void main(){
+        int input, a, b;
+        System.out.print("Choose an option: ");
+        input = System.in.read();
+        System.out.print("First: ");
+        a = System.in.read();
+        System.out.print("Second: ");
+        b = System.in.read();
+        System.out.print("EndF: ");
+        endF = System.in.read();
+
+        if(input == 1) //Sum
+            System.out.print(add(a,b));
+        else if(input == 2) //Sub
+            System.out.print(sub(a,b))
+        else if(input == 1) //Mult
+            System.out.print(mul(a,b));
+        else if(input == 1) //Div
+            System.out.print(div(a,b));
+        else //RANDOM
+            System.out.print(random(a,b));
+
+        if(!endF){
+            endFunction();
+        }
+    }
+
+    int add(int a, int b){
+        return a + b;
+    }
+
+    int sub(int a, int b){
+        return a - b;
+    }
+    
+    int mul(int a, int b){
+        return a * b;
+    }
+    
+    int div(int a, int b){
+        return a / b;
+    }
+    
+    int random(int a, int b){
+        return ((34 + a) * 4) + (12-(b/24)) / (a%b);
+    }
+
+    void endFunction(){
+        int i;
+        i = 0;
+        while(true){
+            System.out.print(i);
+            i = i +1;
+            if(i == 10)
+                break;
+            else if(i == 3){
+                continue;
+            }
+        }
+        
+        for(i = 0; i < 10; i  = i+1)
+            System.out.print(i);
+    }
+}

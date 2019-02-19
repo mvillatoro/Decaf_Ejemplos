@@ -1,0 +1,12 @@
+class if_class {
+    void main() {
+        int x, y;
+        x = 11;
+        y = 12;
+        if (x >= 0) { 
+            System.out.print("X is positive.");
+        } else { 
+            System.out.print("X is 0 or negative.");      
+        }
+    }
+}

@@ -1,0 +1,30 @@
+/*
+    Roberto Hernandez - 21441008
+*/
+
+class fibonnaci {
+
+    void main() {
+        int n, res;
+        System.out.println("Enter n:");
+        n = System.nextInt();
+        res = fib(n);
+        System.out.print("Fib result: ");
+        System.out.println(res);
+    }
+
+    int fib(int n) {
+        if(n <= 1) {
+            return n;
+        }
+        int fib = 1;
+        int prevFib = 1;
+
+        for(int i = 2; i < n; i++) {
+            int temp = fib;
+            fib = fib + prevFib;
+            prevFib = temp;
+        }
+        return fib;
+    }
+}
