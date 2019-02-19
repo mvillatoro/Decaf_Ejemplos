@@ -1,0 +1,20 @@
+class test{
+	int main(){
+		int i, j, k;
+		i = 0;
+		j = 0;
+		k = 0;
+		
+		while(i < 10 && j < 40 && k < 100){
+			System.out.print("i = ");
+			System.out.println(i);
+			System.out.print("j = ");
+			System.out.println(j);
+			System.out.print("k = ");
+			System.out.println(k);
+			continue;
+		}
+
+		return 0;
+	}
+}

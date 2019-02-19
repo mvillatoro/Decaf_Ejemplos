@@ -1,0 +1,21 @@
+class test{
+	int x, s_1_2_, arr[10], arr2[20];
+	bool parse, parse2, parse3[50];
+
+	int func(){
+		x = 10;	
+		return x;
+	}
+
+	void func2(int x, bool y, int z){
+		int y;
+		y = 15;
+		return y;
+	}
+
+	int main(){
+		arr2[5+6] = -80+-x-8*4;
+		arr2[y-x] = 45 && 44;
+		return arr[arr2[y-x]];
+	}
+}

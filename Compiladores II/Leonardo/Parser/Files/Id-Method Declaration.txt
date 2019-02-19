@@ -1,0 +1,19 @@
+class test{
+	int x, s_1_2_, arr[10], arr2[20];
+	bool parse, parse2, parse3[50];
+
+	int func(){
+		int x;
+		return x;
+	}
+
+	void func2(int x, bool y, int z){
+		int y;
+		return y;
+	}
+
+	int main(){
+		int z;
+		return 0;
+	}
+}
