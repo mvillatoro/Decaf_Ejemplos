@@ -1,0 +1,17 @@
+ class Example {
+    void main() {
+        int x; int y;
+        x = System.in.read();
+        y = System.in.read();
+        result = gcd(x,y);
+        System.out.print(result);
+    }
+        int gcd(int a, int b) {
+            if ( b == 0 ){
+                return a;
+            }else{
+                return gcd(b, a % b);
+            }
+        }
+}
+         
