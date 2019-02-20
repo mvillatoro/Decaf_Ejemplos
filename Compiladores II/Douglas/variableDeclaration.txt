@@ -1,0 +1,12 @@
+class Program{
+    int x = 0;
+    void main(){
+        int i, j;
+        i = 1;
+        j = 2;
+        x = 3;
+        System.out.print(i);
+        System.out.print(i);
+        System.out.print(x);
+    }
+}

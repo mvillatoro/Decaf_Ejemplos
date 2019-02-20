@@ -1,0 +1,14 @@
+class Program{
+    void main(){
+        printValues(sumValues(1,2), 3);
+    }
+
+    void sumValues(int a, int b){
+        return a + b;
+    }
+
+    void printValues(int x , int y){
+        System.out.print(x);
+        System.out.print(y);
+    }
+}
