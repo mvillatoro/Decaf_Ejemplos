@@ -1,0 +1,14 @@
+class Test{
+    int numArray[20];
+    void main(){
+        int i;
+        //Array assignment
+        for(i=0;i<20;i=i+1){
+            numArray[i]=i*2;
+        }
+        //Array access
+        for(i=0;i<20;i=i+1){
+            System.out.println(numArray[i]);
+        }
+    }
+}
